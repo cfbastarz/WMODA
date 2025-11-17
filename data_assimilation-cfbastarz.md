@@ -1,959 +1,1505 @@
 ---
-title: Operational Data Assimilation
-author: Carlos Frederico Bastarz
-description: Operational data assimilation activities at CPTEC
-keywords: [Operations, Data Assimilation]
-
-
-header: Data Assimilation
-footer: "[Back to the outline](#3)"
-
-marp: true
-theme: socrates
-transition: cube
-
-size: 16:9
-lang: en-US
-math: mathjax
+theme: gaia
+_class: lead
 paginate: true
----
-
-<!-- _class: title-academic -->
-
-<div class="title"         > Data Assimilation </div>
-<div class="subtitle"      > Initial Conditions and Operational Activities </div> 
-<div class="author"        > Carlos Frederico Bastarz </div>
-<div class="date"          > November 17, 2025</div>
-<div class="organization"  > WMO - Training Course on Weather Forecasting and Beyond</div>
-
----
-
-<!-- _class: toc  -->
-
-1. [What is Data Assimilation?](#)
-2. [Operational Data Assimilation at CPTEC](#)
-   2.1 [CPTEC Data Assimilation System (SMNA)](#) 
-   2.2 [Observations Assimilated by the SMNA](#)
-   2.3 [Data Assimilation Cycle](#)
-   2.4 [Cost Function Minimization](#)
-   2.5 [Observation Quality Control](#)
-3. [DevOps Activities](#)
-   3.1 [Monitoring and Objective Evaluation Tools](#)
-4. [Some Operational Results](#)
-
-
----
-
-<!-- _class: chapter -->
-
-# What is **Data Assimilation**?
-
-## ...and why we need it?
-
----
-
-
-# What is **Data Assimilation**?
-
-`Research` has been conducted in order to evaluate the possibility of reaching meaningful knowledge from Algebraic Graph transformations.
-
-- Model Cheking and theorem prooving are viable paths.
-
-When the neet to make strong assertions becomes inevitable:
-
-- This is the first way: outstanding assertion!
-
-<footnote>
-* Note: This is a very long footnote line intended to test the layout of two.
-
-</footnote>
-
----
-
-<!-- _class: chapter -->
-
-# Operational Data Assimilation at CPTEC
-
-## Components of a data assimilation system
-
----
-
-<!-- _class: chapter -->
-
-# DevOps Activities
-
-## Developments to support data assimilation
-
----
-
-<!-- _class: chapter -->
-
-# Some Operational Results
-
-## Comparisons with other numerical products
-
-
-
----
-
-<!-- _class: multicolumn -->
-
-<div>
-
-# H1 - H1 level of header
-
-## H2 - H2 level of header
-
-### H3 - H3 level of header
-
-#### H4 - H4 level of header
-
-##### H5 - H5 level of header
-
-###### H6 - H6 level of header
-
-</div><div>
-
-- This is a fragment o normal text written here in order to exemplify the use of several featrues in CSS.
-
-- This is a fragment o normal text written here in order to exemplify the use of several featrues in CSS.
-
-  - This is one **bold** comment.
-  - This is another _italic_ comment.
-
-</div></div>
-
----
-
-<!-- _class: chapter -->
-
-# Images
-
----
-
-<!-- _class: white-slide -->
-
-# One image slide
-
-![h:400 center](./assets/images/math/puebk.png)
-
-<figcaption>Object defined in terms of spherical coordinates.</figcaption>
-
----
-
-# Images fit into columns
-
-<div class="multicolumn" align="center"><div>
-
-[![h:350px drop-shadow:4px,5px,15px,#010101](./assets/images/books/book004.jpg)](https://amzn.eu/d/fQDOCSF)
-
-<figcaption>Sophokles, Suhrkamp (2015).</figcaption>
-
-</div><div>
-
-[![h:350px drop-shadow:4px,5px,15px,#010101](./assets/images/books/book003.jpg)](https://amzn.eu/d/bxExVnT)
-
-<figcaption>Göthe, Suhrkamp (2011).</figcaption>
-
-</div><div>
-
-[![h:350px drop-shadow:4px,5px,15px,#010101](./assets/images/books/book006.jpg)](https://amzn.eu/d/f3z3qfe)
-
-<figcaption>Heine, Suhrkamp (2011).</figcaption>
-
-</div></div>
-
----
-
-# Image and text on the same slide (1)
-
-<div class="multicolumn vcenter"><div>
-
-[![h:350 drop-shadow:0,5px,10px,#00000066 center](./assets/images/books/hegel001.jpg)](https://a.co/d/c1lqFtF)
-
-<figcaption align="center"> <i>Phänomenologie des Geistes</i> Oxford edition.</figcaption>
-
-</div><div>
-
-## Hegels Phänomenologie
-
-Das Buch trug ursprünglich den Titel "**Phänomenologie des Geistes**" von seinem Autor: G.W.F. Hegel.
-
-- Das `1807` veröffentlichte Werk markiert eine bedeutende Entwicklung des deutschen Idealismus nach Kant.
-- In diesem Buch entwickelt Hegel seine Konzepte der Dialektik.
-
-> Price at Amazon used to be $ 17.83.
-
-</div>
-</div>
-
----
-
-# Image and text on the same slide (2)
-
-<div class="multicolumn vcenter"><div>
-
-## Kant, Leibniz & Newton
-
-Philosophy and the sciences were closely linked in the age of Leibniz, Newton, and Kant.
-
-This addresses the transformations of metaphysics as a discipline, the emergence of analytical mechanics, the diverging avenues of 18th-century Newtonianism, the body-mind problem, and philosophical principles of classification in the life sciences.
-
-> Price at Amazon used to be 128,39 €
-
-</div><div>
-
-[![h:390 drop-shadow:0,5px,10px,#00000066 center](./assets/images/books/book007.jpg)](https://amzn.eu/d/9zaa7UK)
-
-<figcaption align="center">Springer edition (2023).</figcaption>
-
-</div></div>
-
----
-
-<!-- _class: white-slide -->
-
-# Multi-images Environment (1)
-
-<div class="multicolumn vcenter" align="center">
-
-![h:175](./assets/images/math/math001.png)
-<br><span class="figcaption">Math001.</span>
-
-![h:175](./assets/images/math/math002.png)
-<br><span class="figcaption">Math002.</span>
-
-![h:175](./assets/images/math/math004.gif)
-<br><span class="figcaption">Math003.</span>
-
-![h:175](./assets/images/math/math003.png)
-<br><span class="figcaption">Math004.</span>
-
-![h:175](./assets/images/math/math005.png)
-<br><span class="figcaption">Math005.</span>
-
-</div>
-
----
-
-<!-- _class: white-slide -->
-
-# Multi-images Environment (2)
-
-<div class="multicolumn vcenter" align="center">
-
-<div>
-
-![h:185](./assets/images/math/math001.png)
-<br><span class="figcaption">Math001.</span>
-
-![h:185](./assets/images/math/math002.png)
-<br><span class="figcaption">Math002.</span>
-
-</div>
-
-![h:390](./assets/images/math/math004.gif)
-<br><span class="figcaption">Math003.</span>
-
-<div>
-
-![h:185](./assets/images/math/math003.png)
-<br><span class="figcaption">Math004.</span>
-
-![h:185](./assets/images/math/math005.png)
-<br><span class="figcaption">Math005.</span>
-
-</div></div>
-
----
-
-<!-- _class: white-slide -->
-
-# Figures and caption in _multicolumn_
-
-<div class="multicolumn" align="center">
-
-![h:250](./assets/images/gods/zeus.png)
-<br><span class="figcaption">God Zeus</span>
-
-![h:250](./assets/images/gods/afrodite.png)
-<br><span class="figcaption">Afrodite</span>
-
-![h:250](./assets/images/gods/dionisio.png)
-<br><span class="figcaption">Dionísio</span>
-
-![h:250](./assets/images/gods/era.png)
-<br><span class="figcaption">Era</span>
-
-</div>
-
----
-
-<!-- _class: chapter -->
-
-# Animations
-
-## Usually works in html only...
-
----
-
-<!-- _class: black-slide -->
-
-# Animations &nbsp;<span style="font-size:0.5em; color:yellow;">(works in HTML only)</span>
-
-<div class=multicolumn vcenter><div align=center>
-
-![h:380px](https://i.pinimg.com/736x/93/74/88/9374889616698d45adf1e911788665a4.jpg)
-
-<figcaption> Static picture.
-
-</div><div align=center>
-
-<iframe src="https://assets.pinterest.com/ext/embed.html?id=77335318596012123" height="390" width="400" frameborder="0" scrolling="no" ></iframe>
-
-<figcaption> Animation 02.
-
-</div></div>
-
----
-
-<!-- _class: white-slide -->
-<!-- _footer: Vídeo de Nikolay Sobolev no Pexels: https://www.pexels.com/pt-br/video/ar-aviao-aeronave-aeroporto-16127349/ -->
-
-# Video
-
-<center>
-
-<video controls height="400px">
-  <source src="https://cunhapaulo.github.io/marpx/videos/sample01.mp4">
-</video>
-
-<figcaption>Video playing in Marp available only in html export.
-
-</center>
-
----
-
-<!-- _class: chapter -->
-
-# Lists
-
-## Ordered and unordered
-
----
-
-# _Ordered_ and _unordered_ lists
-
-<div class="multicolumn"><div>
-
-1. First object in list;
-2. Second object in list;
-3. Third object in list;
-   1. First objetc in sublist;
-   2. Second object in sublist;
-      1. Another level;
-      2. Yet another item.
-   3. Third object in sublist.
-4. Fourth object in List.
-
-</div><div>
-
-- First object in list;
-- Second object in list;
-- Third object in list;
-  - First objetc in sublist;
-  - Second object in sublist;
-    - Another level;
-    - Yet another item.
-  - Third object in sublist;
-- Fourth object in List;
-
-</div></div>
-
----
-
-<!-- _class: chapter -->
-
-# Tables
-
-## Organizing data with tables in Markdown
-
----
-
-# Renaissance painters
-
-<center>
-
-| Painter           | Country | Birth Year | Death Year | Most Famous Work           |
-| ----------------- | :-----: | :--------: | :--------: | -------------------------- |
-| Albrecht Dürer    | Germany |    1471    |    1528    | _Melencolia I_             |
-| Leonardo da Vinci |  Italy  |    1452    |    1519    | _Mona Lisa_                |
-| Michelangelo      |  Italy  |    1475    |    1564    | _Sistine Chapel Ceiling_   |
-| Raphael           |  Italy  |    1483    |    1520    | _The School of Athens_     |
-| Titian            |  Italy  |   ~1488    |    1576    | _Assumption of the Virgin_ |
-
-<tabcaption>Renowned Renaissance painters with biographical data and masterpieces (alphabetical order).</tabcaption>
-
-<center>
-
----
-
-# Programming languages
-
-<center>
-
-| Language | Creator(s)          | Year | Main Paradigm(s)                            |
-| -------- | ------------------- | ---- | ------------------------------------------- |
-| C        | _Dennis Ritchie_    | 1972 | Structured, Procedural                      |
-| C++      | _Bjarne Stroustrup_ | 1983 | Object-oriented, multi-paradigm             |
-| Erlang   | _Joe Armstrong_     | 1986 | Funcional, Concorrente                      |
-| Haskell  | _Comitê Haskell_    | 1990 | Purely Functional                           |
-| Java     | _James Gosling_     | 1995 | Object-Oriented                             |
-| Pascal   | _Niklaus Wirth_     | 1970 | Structured, Procedural                      |
-| Python   | _Guido van Rossum_  | 1991 | Multi-paradigm (OO, Procedural, Functional) |
-
-<tabcaption>List of programming languages.</tabcaption>
-
-</center>
-
----
-
-<!-- _class: chapter -->
-
-# Mathematical Formulations
-
-## Writing equations with LaTeX
-
----
-
-<!-- _class: white-slide -->
-
-# Probability Distribution (1)
-
-<div class="multicolumn vcenter"><div>
-
-$$
-f(x) = \frac{1}{\sigma \sqrt{2\pi}} \exp\left( -\frac{(x - \mu)^2}{2\sigma^2} \right)
-$$
-
-<figcaption>Normal Distribution (Gaussian).</figcaption>
-
-</div><div>
-
-![w:650](./assets/images/graphs/distribution02.png)
-
-<figcaption>Multivariate Normal Distribution.</figcaption>
-
-</div></div>
-
----
-
-<!-- _class: white-slide -->
-
-# Probability Distribution (2)
-
-<div class="multicolumn vcenter"><div>
-
-$$
-f(x) = \frac{\sqrt{\frac{(d_1 x)^{d_1} d_2^{d_2}}{(d_1 x + d_2)^{d_1 + d_2}}}}{x \, B\left(\frac{d_1}{2}, \frac{d_2}{2}\right)}
-$$
-
-<figcaption>Fisher-Snedecor F distribution.</figcaption>
-
-</div><div>
-
-![w:650](./assets/images/graphs/distribution03.png)
-
-<figcaption>Multivariate Normal Distribution.</figcaption>
-
-</div></div>
-
----
-
-# Electromagnetic Field (Differential form)
-
-Below, in modern vector notation, in _differential form_, are Maxwell's four equations governing the `electromagnetic field`.
-
-$$
-\begin{align}
-\nabla \cdot \mathbf{E} &= \frac{\rho}{\varepsilon_0}
-        &&\text{(Gauss's law)}\\
-\nabla \cdot \mathbf{B} &= 0
-        &&\text{(No magnetic monopoles)}\\
-\nabla \times \mathbf{E} &= -\,\frac{\partial \mathbf{B}}{\partial t}
-        &&\text{(Faraday-Lenz law)}\\
-\nabla \times \mathbf{B} &= \mu_0 \mathbf{J}
-        + \mu_0 \varepsilon_0\,\frac{\partial \mathbf{E}}{\partial t}
-        &&\text{(Ampere-Maxwell Law)}
-\end{align}
-$$
-
----
-
-# Electromagnetic Field (Integral form)
-
-Below, in modern vector notation, in _integral form_, are Maxwell's four equations governing the electromagnetic field.
-
-$$
-\begin{align}
-\oint_{\Sigma} \mathbf{E}\cdot d\mathbf{S}
-      &= \frac{Q_{\text{enc}}}{\varepsilon_0}
-        &\text{(Gauss's law)}\\
-\oint_{\Sigma} \mathbf{B}\cdot d\mathbf{S}
-      &= 0
-        &\text{(No magnetic monopoles)}\\
-\oint_{\partial\Sigma} \mathbf{E}\cdot d\mathbf{l}
-      &= -\,\frac{d}{dt}\int_{\Sigma}\mathbf{B}\cdot d\mathbf{S}
-        &\text{(Faraday-Lenz law)}\\
-\oint_{\partial\Sigma} \mathbf{B}\cdot d\mathbf{l}
-      &= \mu_0 I_{\text{enc}}
-      + \mu_0 \varepsilon_0\,\frac{d}{dt}
-        \int_{\Sigma}\mathbf{E}\cdot d\mathbf{S}
-        &\text{(Ampere-Maxwell Law)}
-\end{align}
-$$
-
----
-
-<!-- _class: chapter -->
-
-# Code
-
-## Computer programs source code
-
----
-
-<!-- _class: white-slide -->
-
-# Python programs
-
-<div class="multicolumn"><div>
-
-```python
-"""
-O programa traça, em 2D, os perfis instantâneos do
-campo elétrico E (y) e do campo magnético B (z),
-ambos perpendiculares ao eixo de propagação x.
-"""
-import numpy as np
-import matplotlib.pyplot as plt
-
-# Constantes e parâmetros
-c = 3e8
-E0 = 1.0
-lambda_ = 1.0
-k = 2 * np.pi / lambda_
-omega = 2 * np.pi * c / lambda_
-x = np.linspace(0, 2 * lambda_, 1000)
-t = 0
-E = E0 * np.sin(k * x - omega * t)
-B = (E0 / c) * np.sin(k * x - omega * t)
-B_scaled = c * B  # para visualização
-
-plt.plot(x, E, label='E(x, t=0)')
-plt.plot(x, B_scaled, label='c·B(x, t=0)')
-plt.xlabel('x (m)')
-plt.ylabel('Amplitude (u.a.)')
-plt.title('Propagação de onda eletromagnética no vácuo (instantâneo)')
-plt.legend()
-plt.grid(True)
-plt.show()
-```
-
-<figcaption> First program.</figcaption>
-
-</div><div>
-
-```python
-import numpy as np
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D   # registra o proj. 3-D
-
-# --------------------- parâmetros físicos ----------------------
-c   = 3.0e8                      # velocidade da luz (m s⁻¹)
-E0  = 1.0                        # amplitude arbitrária do campo elétrico (V m⁻¹)
-lam = 1.0                        # comprimento de onda (m)
-k = 2*np.pi/lam                  # número de onda
-ω = 2*np.pi*c/lam                # frequência angular
-# domínios espacial e temporal
-x = np.linspace(0, 2*lam, 1000)  # duas ondas completas
-t = 0.0                          # instante “congelado”
-# --------------------- campos E e B ----------------------------
-E =  E0 * np.sin(k*x - ω*t)      # componente em y
-B = (E0/c) * np.sin(k*x - ω*t)   # componente em z (antes do escalonamento)
-B_plot = c * B                   # escala-se por c para comparar a E
-# --------------------- figura 3-D ------------------------------
-fig = plt.figure(figsize=(8, 4))
-ax  = fig.add_subplot(111, projection='3d')
-
-# linha do campo elétrico: (x, E, 0)
-ax.plot(x, E, np.zeros_like(x), label='E(x, t=0)')
-# linha do campo magnético escalonado: (x, 0, c B)
-ax.plot(x, np.zeros_like(x), B_plot, label='c·B(x, t=0)')
-# rótulos e estética
-ax.set_xlabel('x (m)')
-ax.set_ylabel('E (V/m)')
-ax.set_zlabel('c·B (V/m)')
-ax.set_title('Propagação de uma onda eletromagnética no vácuo (instantâneo 3-D)')
-ax.legend()
-plt.tight_layout()
-plt.show()
-```
-
-<figcaption> Second program.</figcaption>
-
-</div></div>
-
----
-
-<!-- _class: white-slide -->
-
-# Electromagnetic wave propagation (1)
-
-[![h:400 center](./assets/images/graphs/eletromag-plot01.png)](./assets/programs/eletromag-plot01.py)
-
-<figcaption>Result of the 3D rendering of the program electromag-plot01.py.</figcaption>
-
----
-
-<!-- _class: white-slide -->
-
-# Electromagnetic wave propagation (2)
-
-[![h:450 center](./assets/images/graphs/eletromag-plot-3d.gif)](./assets/programs/eletromag-plot04-animate.py)
-
-<figcaption>3D animation of an electromagnetic wave propagation.</figcaption>
-
----
-
-<!-- _class: chapter -->
-
-# Quotes
-
-## Special text deserves special space
-
----
-
-<!-- _class: quote -->
-
-"There is an **increasing** demand of current information systems to incorporate the use of a higher degree of formalism in the development process. **Formal Methods** consist of a set of tools and techniques based on mathematical model and formal logic that are used to **specify and verify** requirements and designs for hardware and software systems."
-
----
-
-<!-- _class: quote dark -->
-
-"There is an **increasing** demand of current information systems to incorporate the use of a higher degree of formalism in the development process. **Formal Methods** consist of a set of tools and techniques based on mathematical model and formal logic that are used to **specify and verify** requirements and designs for hardware and software systems."
-
----
-
-<!-- _class: chapter -->
-
-# Callouts
-
----
-
-<!-- _class: white-slide -->
-
-# Callouts
-
-<div class="multicolumn">
-
-  <div class="callout info">
-
-# Info
-
-Text for information with <br> **Markdown** formatting.
-
-  </div>
-
-```md
-<div class="callout">
-
-# Info
-
-Text for information with <br> **Markdown** formatting.
-
-</div>
-```
-
-  </div>
-
-<div class="multicolumn">
-
-  <div class="callout danger">
-
-# Danger
-
-Another text with <br> **Markdown** formatting.
-
-  </div>
-
-```md
-<div class="callout danger">
-
-# Danger
-
-Another text with <br> **Markdown** formatting.
-
-</div>
-```
-
-</div>
-
----
-
-<!-- _class: white-slide -->
-
-# Callouts types
-
-<div class="multicolumn">
-
-  <div class="callout success">
-
-# Success
-
-You may use in semantics.
-
-  </div>
-
-  <div class="callout abstract">
-
-# Abstract
-
-You may use in semantics.
-
-  </div>
-
-  <div class="callout tip">
-
-# Tip
-
-You may use in semantics.
-
-  </div>
+transition: slide
+math: mathjax
+backgroundColor: #fff
+footer: '**TRAINING COURSE ON WEATHER FORECASTING - AND BEYOND**'
+marp: true
+
+style: |
+  pre, code {
+    font-family: "Fira Code", monospace;
+    background: #2e3440;
+    color: #eceff4;
+    border-radius: 8px;
+    padding: 0.75em 1em;
+    font-size: 0.9em;
+  }
+
+  pre {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin: 1em 0;
+  }
   
-  <div class="callout todo">
-
-# ToDo
-
-You may use in semantics.
-
-  </div>
-
-</div>
-
-<div class="multicolumn">
-
-  <div class="callout note">
-
-# Note
-
-You may use in semantics.
-
-  </div>
-
-  <div class="callout example">
-
-# Example
-
-You may use in semantics.
-
-  </div>
+  span.footnote {
+    border-top: 0.1em dotted #555;
+    font-size: 60%;
+    margin-top: auto;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;    
+  }
   
-  <div class="callout quote">
+  span.date {
+    font-size: 15px;
+  }
 
-# Quote
+  span.program {
+    font-size: 18px;
+  }
 
-You may use in semantics.
+  .columns {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+  
+  figure {
+    text-align: center;
+  }
 
-  </div>
+  figcaption {
+    font-size: 0.50em;
+    margin-top: 6px;
+    color: #666;
+    font-style: italic;
+  }
 
-  <div class="callout question">
+  section {
+      font-size: 19px;
+      position: relative;
 
-# Question
+      /* Fundo global: aplica a TODOS os slides */
+      background-image: url('./figs/fundo.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
 
-You may use in semantics.
+  /* Imagem flutuante no canto inferior direito */
+  .floating_ne {
+    position: absolute;
+    top: 155px;
+    right: 50px;
+    width: 75px;
+    opacity: 1.0;
+    pointer-events: none; /* evita interferir com seleção de texto */
+  }
 
-  </div>
+  .floating_wmo {
+    position: absolute;
+    top: 75px;
+    left: 50px;
+    width: 375px;
+    opacity: 1.0;
+    pointer-events: none; /* evita interferir com seleção de texto */
+  }  
+  
+  /* Exemplo flex: texto + imagem lado a lado */
+  .row {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+  }
+  .row .left-img {
+    width: 200px;
+    flex-shrink: 0;
+  }
+  
+---
+
+<!-- _footer: "" -->
+
+<!-- _class: title -->
+
+![bg](./figs/title_bkg.png)
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
+# Assimilação de Dados
+
+#### Determinação da Condição Inicial, R2O e Atividades Operacionais
+
+<br />
+<br />
+<br />
+<br />
+
+<span style="color:#FFF; font-size:16px;">
+CARLOS FREDERICO BASTARZ
+
+<br />
+<br />
+<br />
+
+<b>TRAINING COURSE ON WEATHER FORECASTING - AND BEYOND</b>
+
+17 de Novembro de 2025
+</span>
+
+<div>
+  <img src="./figs/logos.png" class="floating_wmo" alt="WMO logo">
+</div>  
+
+---
+
+![bg](./figs/slides_bkg.png)
+
+# Sumário
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<div class="columns">
+<div>
+
+1. [Assimilação de Dados](#3)
+  1.1 O que é Assimilação de Dados?
+  1.2 Motivação
+  1.3 Intuição matemática
+2. [Determinação da Condição Inicial](#16)
+  2.1 Evolução do Skill da Assimilação de Dados
+  2.2 Sistema de Modelagem Numérica e Assimilação de dados do CPTEC
+  2.3 Gridpoint Statistical Interpolation
+  2.4 Exemplos reais
 
 </div>
+<div>
 
-<div class="multicolumn">
-
-  <div class="callout warning">
-
-# Warning
-
-You may use in semantics.
-
-  </div>
-
-  <div class="callout failure">
-
-# Failure
-
-You may use in semantics.
-
-  </div>
-
-  <div class="callout danger">
-
-# Danger
-
-You may use in semantics.
-
-  </div>
-
-  <div class="callout bug">
-
-# Bug
-
-You may use in semantics.
-
-  </div>
+3. [R2O – Research to Operations](#24)
+  3.1 O que é e por que é necessário R2O?
+  3.2 Ferramentas de apoio
+  3.3 Fluxo de transição
+4. [Atividades Operacionais](#34)
+  4.1 Custo operacional 
+  4.2 Monitoramento
+  4.3 Comparações com outros produtos numéricos
+5. [Conclusões](#38)
 
 </div>
-
----
-
-<!-- class: "chapter" -->
-
-# Appendix
-
-## Bibliography, References, Appendix. etc.
-
----
-
-<!-- class: references -->
-
-# Appendix 1 - Special Sections (1)
-
-<center>
-
-| CSS Section         | Description/Purpose         | Markdown Class (example)       |
-| ------------------- | --------------------------- | :----------------------------- |
-| section.title       | Title slide                 | `<!-- _class: title -->`       |
-| section.title-bg    | Title slide with background | `<!-- _class: title-bg -->`    |
-| section.chapter     | Chapter slide               | `<!-- _class: chapter -->`     |
-| section.chapter-alt | Alternative chapter         | `<!-- _class: chapter-alt -->` |
-| section.agenda      | Agenda/content slide        | `<!-- _class: agenda -->`      |
-| section.end         | Thank you slide             | `<!-- _class: end -->`         |
-| section.end-bg      | Thank you with background   | `<!-- _class: end-bg -->`      |
-| section.copyright   | Copyright slide             | `<!-- _class: copyright -->`   |
-| section.logos       | Slide with additional logos | `<!-- _class: logos -->`       |
-
-<tabcaption>List of tags used (1).</tabcaption>
-
-</center>
-
----
-
-# Appendix 1 - Special Sections (2)
-
-<center>
-
-| CSS Section                 | Description/Purpose                     | Markdown Class (example)               |
-| --------------------------- | --------------------------------------- | -------------------------------------- |
-| section.blank               | Blank slide                             | `<!-- _class: blank -->`               |
-| section.nobrand             | Slide without branding                  | `<!-- _class: nobrand -->`             |
-| section.multicolumn         | Slide with multiple columns             | `<!-- _class: multicolumn -->`         |
-| section.multicolumn vcenter | Vertically centered IN multiple columns | `<!-- _class: multicolumn vcenter -->` |
-| section.grid-tlr            | Grid: top, left, right                  | `<!-- _class: grid-tlr -->`            |
-| section.grid-lrb            | Grid: left, right, bottom               | `<!-- _class: grid-lrb -->`            |
-| section.quote               | Quote slide (unified quote)             | `<!-- _class: quote -->`               |
-| section.quote.dark          | Alternative quote (formerly quote2)     | `<!-- _class: quote dark -->`          |
-| section.references          | References/bibliography slide           | `<!-- _class: references -->`          |
-
-<tabcaption>List of tags used (2).</tabcaption>
-
-</center>
-
----
-
-<!-- _class: "references" -->
-
-# References
-
-<div class="multicolumn"><div>
-
-1. AMERIKS, Karl; HÖFFE, Otfried. **Kant’s Moral and Legal Philosophy**. tradução: Nicholas Walker. Cambridge, Massachusetts: Cambridge University Press, 2009-. ISSN 1878-6847.(The German Philosophical Tradition).
-2. ARISTOTELES. **Nikomachische Ethik**. Berlin: Akademie Verlag, 2010. (Klassiker Auslegen).v. 2
-3. CASSIRER, Ernst. **The Myth of the State**. New Haven, USA: Yale University Press, 1946.
-4. EPSTEIN, Richard L.; CARNIELLI, Walter A. **Computability: Computable Functions, Logic, and the Foundations of Mathematics**. 3. ed. Socorro, New Mexico, USA: Advanced Reasoning Forum, 2008.
-5. GADAMER, Hans-Georg. **Wahrheit und Methode**. Berlin: Akademie Verlag, 2007. v. 30.
-6. HEGEL, Georg Friederich Wilhelm. **Hegel´s Phenomenology of Spirit**. Tradução: A. V. Miller. New York: Oxford University Press, 2004.
-
-</div><div>
-
-7. HEIDEGGER, Martin. **Sein und Zeit**. 11. ed. Tübingen: Max Niemeyer Verlag, 1967.
-8. HUSSERL, Edmund. **The Crisis of European Sciences and Transcendental Phenomenology**. Evanston, USA: Northwestern University Press, 1970.
-9. KANT, Immanuel. **Kritik der Praktischen Vernunft**. Berlin: Akademie Verlag, 2002. (Klassiker Auslegen).v. 26
-10. KANT, Immanuel. **Groundwork of the Metaphysics of Morals: A German-English Edition**. tradução: Mary Gregor; Jens Timmermann. Cambridge, UK: Cambridge University Press, 2011.
-11. KARDEC, Allan. **Das Buch der Geister**. Übersetzung: Edith Burkhard. 3. ed. Brasília, DF: Internationaler Spiritistischer Rat, 2011.
-12. PLATO. **Plato Republic**. Tradução: C. D. C. Reeve. Indianapolis, IN, USA: Hackett Publishing Company, 2004.
-
-</div></div>
-
----
-
-<!-- _class: references  -->
-
-# Credits
-
-<div class="multicolumn"><div>
-
-1. Special thanks to **Yuki Hattori** [(GitHub)](https://github.com/yhatt), creator of [Marp](https://github.com/Marp-team/Marp).
-2. Early [CSS](https://github.com/Juanvvc) inspiring ideas, from **Juan Vera del Campo**. Gracias!
-3. Inspired by the work of [**Daniel Kriesten**](https://git.hs-mittweida.de/kriesten) at [marp-template-hsmw](https://git.hs-mittweida.de/marp/marp-template-hsmw). Herzlichen Dank!
-4. Biography of **Jacques-Louis David**, [from Wikipedia](https://de.wikipedia.org/wiki/Jacques-Louis_David).
-5. Book cover of **Between Leibniz, Newton, and Kant: Philosophy and Science in the Eighteenth Century** - [©️ Springer Verlag](https://www.springer.com).
-6. Book cover of **Der Sohn des Odysseus** - [Courtesy of ©️ Ishtar Bäcklund Dakhil](https://amzn.eu/d/0U57lKN), Berlin: Verlag Urachhaus 2021.
-7. Book cover of **Deutschland. Ein Wintermärchen**, [©️ Suhrkamp Verlag](https://www.suhrkamp.de/)
-8. Book cover of **Phenomenology of Spirit** - [©️ Oxford University Press](https://corp.oup.com/).
-9. Book cover of **Flute Player** - [Courtesy of ©️ nicoolay/DigitalVision Vectors/Getty Images](https://a.co/d/hU2R2TM).
-
-</div><div>
-
-10.  Book cover of **Iphigenie auf Tauris**, [©️ Suhrkamp Verlag](https://www.suhrkamp.de/)
-11. Book cover of **König Ödipus**, [©️ Suhrkamp Verlag](https://www.suhrkamp.de/)
-12. Video of **Nikolay Sobolev** [from Pexels](https://www.pexels.com/pt-br/video/ar-aviao-aeronave-aeroporto-16127349/).
-13. Figure of **Shaun The Sheep** - [Courtesy of Aardman animations ltd. ©️2025](https://www.shaunthesheep.com/about/).
-14. Image **La mort de Socrate** [from wikipedia](https://pt.wikipedia.org/wiki/Ficheiro:David_-_The_Death_of_Socrates.jpg).
-15. Image **Léonidas aux Thermopyles** [from Wikipedia](https://pt.m.wikipedia.org/wiki/Ficheiro:Jacques-Louis_David_004.jpg).
-16. Image of **Sócates** [from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/450px-Socrates_Louvre.jpg).
-17. Image of **Pixabay** [from Pexels](https://www.pexels.com/pt-br/foto/fotografia-de-baixo-angulo-do-partenon-durante-o-dia-164336/).
-18. **Faustina**. **Fira Sans** and **Fira Sans Light** fonts, imported from [Google Fonts](https://fonts.google.com/).
-19. **Charter ITC TT** and **Fira Sans Condensed** fonts, imported from [CDN Fonts](https://www.cdnfonts.com/).
-20. Mathematical diagrams from **Wolfram Mathematica**, from [©️2025 Wolfram](https://www.wolfram.com/mathematica/).
-
-</div></div>
-
----
-<!-- _class: white-slide -->
-<!-- _footer: "Shaun The Sheep ©️ 2025 aardman animations ltd." -->
-
-<div class="vcenter">
-
-![bg h:60%](./assets/images/cartoon/shawn001b.png)
-
 </div>
 
 ---
 
-[![bg left:50%](https://images.pexels.com/photos/31586773/pexels-photo-31586773.jpeg)]()
+![bg](./figs/slides_bkg.png)
 
-<style scoped>
-h2>a{
-  color: red;
-}
-</style>
+# 1. Assimilação de Dados
 
-<!-- _class: blank -->
+<br />
+
+## **1.1 O que é Assimilação de Dados?**
+
+<br />
+
+<div class="columns">
+<div>
+
+- Assimilação de Dados compreende um conjunto de técnicas que permitem a combinação, de forma ótima, de observações e previsões numéricas levando em consideração os seus respectivos erros
+  * As observações são espalhadas de forma irregular no espaço
+  * As previsões são apresentadas em uma grade regular
+  * A combinação de ambos acarreta na atualização/correção da previsão, e isso chamamos de análise
+
+</div>
+<div>
+
+* A análise é a condição inicial dos modelos numéricos 
 
 <div align="center">
-
-# <!-- fit --> [Click to the ](#1)
-
-## <!-- fit --> [Beginning](#1)
+  <img src="./figs/data_assimilation.jpg" width="400"/>
+  <figcaption>Fonte: https://www.data-assimilation.riken.jp/en/research/index.html</figcaption>
+</div>
 
 </div>
+</div>
+
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 1. Assimilação de Dados
+
+<br />
+
+## **1.2 Motivação**
+
+<br />
+
+- Modelos e observações possuem incertezas
+  * Modelos
+    * Discretização das equações, parametrizações físicas etc
+  * Observações
+    * Calibração dos instrumentos, local das medidas (e.g., proximidade a rios), erros de anotação etc
+* A assimilação de dados precisa considerar estes fatores de forma que estas incertezas possam ponderar a contribuição das parcelas
+  * Quanto maior o erro do modelo/observação, menor a sua precisão e, consequentemente, menor o seu peso
+ 
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 1. Assimilação de Dados
+
+<br />
+
+## **1.3 Intuição matemática**
+ 
+<div class="columns">
+<div>
+
+- Escrevendo esta combinação entre observação e previsão como uma combinação linear
+
+$$
+x_a = \alpha y_o + (1 - \alpha) x_b
+$$
+ 
+- Onde
+  - $x_a$ é a análise
+  - $x_b$ é a previsão
+  - $y_o$ é a observação
+  - $\alpha$ é o peso atribuído à observação
+  - $1 - \alpha$ é o peso atribuído à previsão
+  
+- Para que seja uma combinação linear, a soma dos pesos deve ser igual a 1 👍
+
+</div>
+<div>
+
+- Como deve ser o peso $\alpha$?
+
+<div align="center">
+  <img src="./figs/balanca.jpg" width="500"/>
+</div>
+
+</div>
+</div> 
+ 
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 1. Assimilação de Dados
+
+<br />
+
+## **1.3 Intuição matemática**
+
+<br />
+
+- $\alpha$ é um parâmetro que relaciona as medidas das variâncias da observação e do modelo
+
+<br /> 
+
+$$
+\alpha = \frac{\sigma_{b}^{2}}{\sigma_{b}^{2} + \sigma_{o}^{2}}
+$$
+ 
+<br /> 
+ 
+- Onde
+  - $\sigma_{b}^{2}$ e $\sigma_{o}^{2}$ são as variâncias do background e das observações
+  
+  
+- 👉 Portanto, podemos entender $\alpha$ como um parâmetro que representa a razão entre a variância do erro do modelo e a variância total do erro do sistema (modelo e observação)
+  
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 1. Assimilação de Dados
+
+<br />
+
+## **1.3 Intuição matemática**
+
+<br />
+<br />
+
+<div class="columns">
+<div>
+
+<br />
+<br />
+
+- Considere um modelo matemático simples, a função seno com a adição de um ruído normalmente distribuído:
+
+$$
+f(x) = \sin(x) + \varepsilon, \quad \varepsilon \sim \mathcal{N}(0, \sigma^2), \quad -\pi \le x \le \pi
+$$
+
+</div>
+<div>
+
+<div align="center">
+  <img src="./figs/sinx.png" width="400"/>
+</div>
+
+</div>
+</div>
+
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 1. Assimilação de Dados
+
+<br />
+
+## **1.3 Intuição matemática**
+
+- Definimos um domínio inteiro onde aplicamos o modelo para extrair informações de uma "previsão" e "observações"
+
+<div class="columns">
+<div>
+
+<div align="center">
+  <figcaption>xb = função sin(x) aplicado ao domínio x0</figcaption>
+  <img src="./figs/xb.png" width="390"/>
+</div>
+
+</div>
+<div>
+
+<div align="center">
+  <figcaption>y = Observações (possuem a mesma natureza de xb)</figcaption>
+  <img src="./figs/y.png" width="390"/>
+</div>
+
+</div>
+</div>
+
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 1. Assimilação de Dados
+
+<br />
+
+## **1.3 Intuição matemática**
+
+- $x_b$ e $y_o$ possuem distribuição normal, ambos são representados por valores aleatórios distribuídos sobre uma curva normal com $\mu_{x_b} = 0.0019$ e $\sigma_{x_b} = 0.8909$ e $\mu_{y_o}=-0.011$ e $\sigma_{y_o}=0.8563$
+
+<br />
+
+<div align="center">
+  <img src="./figs/normal_xb_y.png" width="1000"/>
+</div>
+
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 1. Assimilação de Dados
+
+<br />
+
+## **1.3 Intuição matemática**
+
+<br />
+
+- Definimos as séries de erros das previsões e das observações
+
+<div class="columns">
+<div>
+
+<div align="center">
+  <img src="./figs/serie_eb.png" width="550"/>
+</div>
+
+</div>
+<div>
+
+<div align="center">
+  <img src="./figs/serie_eo.png" width="550"/>
+</div>
+
+</div>
+</div>
+
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 1. Assimilação de Dados
+
+<br />
+
+## **1.3 Intuição matemática**
+
+<br />
+
+- Verificação da distribuição dos erros de "previsão" e "observação"
+
+<div class="columns">
+<div>
+
+<div align="center">
+  <img src="./figs/dist_eb.png" width="550"/>
+</div>
+
+</div>
+<div>
+
+<div align="center">
+  <img src="./figs/dist_eo.png" width="550"/>
+</div>
+
+</div>
+</div>
+
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 1. Assimilação de Dados
+
+<br />
+
+## **1.3 Intuição matemática**
+
+<div class="columns">
+<div>
+
+<br />
+
+### Por que a Distribuição Normal?
+
+<br />
+
+- Estamos mantendo as distribuições de $x_{b}$ e $y_{o}$ próximas à distribuição normal, porque esta distribuição possui as seguintes propriedades:
+
+<br />
+
+$$
+f(\psi) = \frac{1}{\sigma\sqrt{2\pi}}{e}^{-\frac{(\psi-\mu)^{2}}{2\sigma^{2}}}
+$$
+
+</div>
+<div>
+
+- ~68% dos valores encontram-se a uma distância da média inferior a $1\sigma$
+- ~95% dos valores encontram-se a uma distância da média inferior a $2\sigma$
+- ~99,7% dos valores encontram-se a uma distância da média inferior a $3\sigma$
+
+<div align="center">
+  <img src="./figs/normal.png" width="450"/>
+</div> 
+
+</div>
+</div>
+
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 1. Assimilação de Dados
+
+<br />
+
+## **1.3 Intuição matemática**
+
+<br />
+ 
+<div class="columns">
+<div>
+
+- A partir destas informações, calculamos
+  - A variância dos erros de previsão e observação
+
+```
+sigmab2 = np.var(errb)
+sigmao2 = np.var(erro)
+```
+
+```
+sigmab2 = 0.0095226361060977
+sigmao2 = 0.00011333207595536619
+```
+
+</div>
+<div>
+
+- A variância dos erros de observação é muito menor do que a variância dos erros de background
+ 
+- O valor de $\alpha = \frac{\sigma_{b}^{2}}{\sigma_{b}^{2} + \sigma_{o}^{2}}$
+
+```
+alpha = sigmab2 / (sigmab2 + sigmao2)
+alpha = 0.9882386415340758
+```
+
+</div>
+</div> 
+ 
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 1. Assimilação de Dados
+
+<br />
+
+## **1.3 Intuição matemática**
+
+<br />
+ 
+<div class="columns">
+<div>
+
+- O valor de $\alpha \approx 0.99$ indica que 99% do peso na combinação linear entre $x_b$ e $y_o$ é dado para as observações, enquanto que 1% do peso é dado para o background
+
+$$
+x_{a} = \alpha y_{o} + (1-\alpha) x_{b}
+$$
+
+- Para quem tiver mais curiosidade
+  - 🎲 Jupyter notebook com análise empírica univariada [<img src="./figs/opencolab.svg" width="100"/>](https://colab.research.google.com/github/cfbastarz/MET563-3/blob/main/atividade_01_equacao_de_analise_empirica.ipynb)
+  - 🎲 Jupyter notebook com análise empírica multivariada [<img src="./figs/opencolab.svg" width="100"/>](https://colab.research.google.com/github/cfbastarz/MET563-3/blob/main/atividade_02_equacao_de_analise_empirica_multi.ipynb)
+
+</div>
+<div>
+
+<div align="center">
+  <img src="./figs/xa_xb_y.png" width="550"/>
+</div> 
+
+</div>
+</div> 
+ 
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 1. Assimilação de Dados
+
+<br />
+
+## **1.3 Intuição matemática**
+
+- Em problemas reais, multivariados e multidimensionais, o peso $\alpha$ é representado por matrizes de covariâncias de erros que requerem modelagem e aproximações para a sua representação 👉 temos pouco controle ou influência sobre estes erros
+
+- Interpolação Ótima
+
+$$
+\mathbf{x}_{a} = \mathbf{x}_{b} + \mathbf{W}[\mathbf{y} - H(\mathbf{x}_{b})], \quad \mathbf{W} = \mathbf{BH}^{\text{T}}(\mathbf{HBH}^{\text{T}}+\mathbf{R})^{-1}
+$$
+
+- Onde
+  - $\mathbf{x}_{a}$ é o vetor de análise (estado estimado)
+  - $\mathbf{x}_{b}$ é o vetor de _background_ ou _first guess_
+  - $\mathbf{y}$ é o vetor de observações
+  - $\mathbf{W}$ é a matriz de peso (ou ganho)
+  - $H$ é o operador observação não linear (transforma o espaço do modelo para o espaço físico das observações)
+  
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 2. Determinação da Condição Inicial
+
+## **2.1 Evolução do Skill da Assimilação de Dados**
+
+<div class="columns">
+<div>
+
+- Evolução do skill da previsão da altura geopotencial em 500 hPa:
+  * No início dos anos 1980, a previsão de 7 dias para o Hemisfério Norte, o skill da previsão não chegava a 50%, sendo inferior a 40% no Hemisfério Sul
+  * Com o tempo, a diferença do skill entre os hemisférios diminuiu drasticamente, sendo muito próximos a partir dos anos 2000
+  * Apenas a partir da metade dos anos 1990, a previsão de 10 dias começa a atingir algum skill (~30%)...
+  * Atualmente, a previsão de 10 dias já alcança skill de 50% para ambos os hemisférios
+  * Embora a melhoria tenha sido importante, parece que o skill das previsões mais curtas está alcançando o seu limite - **por que?**
+
+</div>
+<div>
+
+<br />
+<br />
+<br />
+
+<div align="center">
+  <img src="./figs/daskill2K.jpg" width="600"/>
+</div>
+
+</div>
+</div>
+  
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 2. Determinação da Condição Inicial
+
+<br />
+
+## **2.2 Sistema de Modelagem Numérica e Assimilação de dados do CPTEC**
+
+<br />
+
+- O SMNA é o sistema de assimilação de dados do CPTEC
+  * Modelo global espectral BAM (Brazilian Atmospheric Model)
+  * Framework de assimilação de dados GSI (Gridpoint Statistical Interpolation)
+  * Fornece análise para o modelo BAM na resolução espacial TQ0299L064 
+    * 👉 TQ0299 = truncamento espectral triangular de ordem 299, usando grade Gaussiana quadrática
+    * 👉 L064 = 64 níveis verticais em coordenadas híbridas sigma-pressão
+
+- No CPTEC, a combinação entre modelo BAM e GSI tem sido aplicado desde 2012
+  * Com atualizações na versão do modelo atmosférico (modelo de superfície, parametrização convectiva, coordenada vertical)
+  * Com atualizações na versão do GSI (incluindo novos tipo de dados de observação, matriz de covariâncias entre outros)
+  
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 2. Determinação da Condição Inicial
+
+<br />
+
+## **2.3 Gridpoint Statistical Interpolation**
+
+- O GSI é um framework de assimilação de dados desenvolvido pelo NCEP
+  * Fornece a implementação de software para todas as componentes relacionadas à assimilação de dados
+    * Métodos variacional (3D/4DVar, FGAT, híbrido-variacional e 3D/4DEnVar)
+    * Métodos baseados em conjuntos (EnKF, EnSRF, LETKF)
+    * Métodos de minimização da função custo variacional
+    * Operador $H$ (Modelo de Transferência Radiativa)
+    * Suporte para modelos globais (espectrais) e regionais (em ponto de grade)
+* Mantido pelo DTC/NCAR
+  * Centraliza as contribuições, faz o gerenciamento do código, distribui releases e realiza tutoriais para a comunidade de usuários
+  * 🔗 [https://ral.ucar.edu/solutions/products/gridpoint-statistical-interpolation-gsi](https://ral.ucar.edu/solutions/products/gridpoint-statistical-interpolation-gsi)
+ 
+ ---
+
+![bg](./figs/slides_bkg.png)
+
+# 2. Determinação da Condição Inicial
+
+<br />
+
+## **2.3 Gridpoint Statistical Interpolation**
+
+### ⚙️ 3DVar
+ 
+- 3DVar é um método variacional de assimilação de dados que busca o melhor estado inicial da atmosfera (ou oceano) ajustando uma análise que minimiza a diferença entre as observações e o background, ponderada pelos seus erros (matrizes de covariâncias)
+
+- **Função Custo**
+
+  $$
+  J(\mathbf{x}) =
+  \frac{1}{2}(\mathbf{x} - \mathbf{x}_b)^{\text{T}}\mathbf{B}^{-1}(\mathbf{x} - \mathbf{x}_b)
+  + \frac{1}{2}[\mathbf{y}_o - H(\mathbf{x})]^{\text{T}}\mathbf{R}^{-1}[\mathbf{y}_o - H(\mathbf{x})]
+  $$
+
+- **Gradiente**
+
+  $$
+  \nabla J(\mathbf{x}) = (\mathbf{B}^{-1}+\mathbf{H}^\text{T}\mathbf{R}^{-1}\mathbf{H})(\mathbf{x}-\mathbf{x}_b) - (\mathbf{H}^\text{T}\mathbf{R}^{-1}) [\mathbf{y}_{o}-H(\mathbf{x}_b)] = 0
+  $$
+  
+- **Solução Analítica Exata**
+
+  $$
+  \mathbf{x}_a = \mathbf{x}_b + \mathbf{W}[\mathbf{y}_o - H(\mathbf{x}_b)], \quad \mathbf{W} = \mathbf{BH}^{\text{T}}(\mathbf{HBH}^{\text{T}}+\mathbf{R})^{-1}
+  $$
+  
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 2. Determinação da Condição Inicial
+
+<br />
+
+## **2.3 Gridpoint Statistical Interpolation (3DVar/FGAT)**
+
+### ⚙️ FGAT
+ 
+<div class="columns">
+<div>
+
+- FGAT (First Guess at Appropriate Time) utiliza o background no horário da observação para melhorar a consistência temporal no 3DVar
+  - Função custo continua 3D, pois não evolui a correção do background ao longo do tempo
+  - Melhora a sincronia temporal das observações que não estão no tempo da análise (e.g., observações não convencionais)
+  - Exige que o first guess seja particionado na janela de assimilação 
+
+</div>
+<div>
+
+$$
+J(\mathbf{x}) = \frac{1}{2}(\mathbf{x} - \mathbf{x}_b(t_{0}))^T \mathbf{B}^{-1} (\mathbf{x} - \mathbf{x}_b(t_{0})) + \frac{1}{2}\sum_i [\mathbf{y}_i - H_i(\mathbf{x}(t_i))]^T \mathbf{R}_i^{-1} [\mathbf{y}_i - H_i(\mathbf{x}(t_i))]
+$$
+
+<br />
+  
+<div align="center">
+  <img src="./figs/fgat.png" width="600"/>
+</div>
+
+</div>
+</div> 
+ 
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 2. Determinação da Condição Inicial
+
+<br />
+
+## **2.3 Gridpoint Statistical Interpolation (3DVar/FGAT)**
+
+<br />
+
+### ⚙️ Operador de Observação $\mathbf{H}$
+
+- Responsável por levar o background do modelo até o espaço físico das observações
+  - Se $y_o$ e $x_b$ forem quantidades equivalentes (e.g., temperaturas), então $\mathbf{H}$ realiza apenas uma interpolação e o cálculo da inovação é feito $y_o - H(x_b)$
+  - Se $y_o$ for uma radiância, então $\mathbf{H}$ precisa calcular um perfil de radiância a partir de $x_b$ para calcular a inovação
+    * Neste caso, $\mathbf{H}$ é um modelo de transferência radiativa (no caso do SMNA, é o CRTM - Comunity Radiative Transfer Model)
+
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 2. Determinação da Condição Inicial
+
+## **2.3 Gridpoint Statistical Interpolation (3DVar/FGAT)**
+
+### ⚙️ Matriz $\mathbf{B}$
+
+- Fontes de incerteza do processo de modelagem são representadas por:
+  * Modelo numérico (e.g., dinâmica e física)
+  * Observações (e.g., medição, instrumento, grau de processamento)
+  * Sistema de assimilação de dados (e.g., operadores de observação, modelos adjunto e tangente linear, tamanho do conjunto de um ensemble)
+
+* A matriz de covariâncias dos erros de previsão ($\mathbf{B}$), representa a covariância do "erro" (uma estimativa) do modelo
+  
+* Na assimilação de dados, estes erros são modelados em matrizes de covariâncias que tratam das relações espaço-temporais entre as quantidades observadas e diagnosticadas/prognosticadas
+
+* Função custo 3DVar:
+
+  $$
+  J(\mathbf{x}) = \frac{1}{2} (\mathbf{x} - \mathbf{x}^{b})^{T} {\color{red}{\mathbf{B}^{-1}}} (\mathbf{x} - \mathbf{x}^{b}) + \frac{1}{2} [\mathbf{y}^{o} - {\color{green}{\mathbf{H}}}(\mathbf{x})]^{T} {\color{blue}{\mathbf{R}^{-1}}} [\mathbf{y}^{o} - {\color{green}{\mathbf{H}}}(\mathbf{x})]
+  $$
+
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 2. Determinação da Condição Inicial
+
+## **2.3 Gridpoint Statistical Interpolation (3DVar/FGAT)**
+
+### ⚙️ Matriz $\mathbf{B}$
+
+<div class="columns">
+<div>
+
+- **Método NMC (National Modeling Center)**
+
+  - O método NMC preconiza que a correlação espacial dos erros do modelo são semelhantes à correlação espacial das diferenças entre as previsões de 48 e 24 horas
+  - **Suposição:** crescimento linear dos erros de previsão durante as primeiras horas de previsão 
+  
+- Exemplo de par de previsões válido (modelo BAM)
+  - <span style="color: red;">2013122418</span>-<span style="color: blue;">2013122618</span> (previsão 48 horas)
+  - <span style="color: red;">2013122518</span>-<span style="color: blue;">2013122618</span> (previsão 24 horas)
+
+</div>
+<div>
+
+<br />
+
+<div align="center">
+  <img src="./figs/matrizb.png" width="350"/>
+</div>
+
+</div>
+</div> 
+ 
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 2. Determinação da Condição Inicial
+
+## **2.3 Gridpoint Statistical Interpolation (3DVar/FGAT)**
+
+### ⚙️ Controle de Qualidade das Observações
+
+<div class="columns">
+<div>
+
+<br />
+
+- Esta etapa ocorre antes e durante a assimilação de dados
+  - Antes, envolve a preparação dos dados de observação (CPTEC está trabalhando neste assunto, i.e., preparar os seus próprios arquivos prepBUFR para dados convencionais e de radiâncias)
+  - Durante a assimilação, o GSI realiza vários testes e checagens
+- Em geral, há um tipo de controle de qualidade para cada tipo de observação
+
+</div>
+<div>
+
+- 🧑‍🔬 **Pré-controle de qualidade:** para as radiossondas, verifica a altitude, pressão, temperatura, umidade e descarta dados duplicados; para as radiâncias, aplica as flags de uso dos provedores dos dados, verifica a cobertura de nuvens e o ângulo de visada
+- 🧑‍🔬 **OMF:** cálculo das inovações $\mathbf{y}_o - H(\mathbf{x}_b)$ e compara valores com as variâncias de $\mathbf{B}$ e $\mathbf{R}$
+- 🧑‍🔬 **Buddy Check:** compara as observações com a sua vizinhança (pode rejeitas observações ou reduzir o peso delas)
+- 🧑‍🔬 **Controle de Qualidade Adaptativo/Variacional:** ajusta o peso das observações e não as descarta imediatamente
+
+</div>
+</div> 
+  
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 2. Determinação da Condição Inicial
+
+<br />
+
+## **2.3 Gridpoint Statistical Interpolation (3DVar/FGAT)**
+
+<br />
+
+<div class="columns">
+<div>
+
+### ⚙️ Observações Assimiladas pelo SMNA
+
+- Atualmente, são assimiladas os seguintes conjuntos de dados de observações no SMNA do CPTEC
+  - 🌡️ Observações convencionais $u$, $v$, $t$, $q$ e $ps$
+  - 🛰️ Observações não convencionais dos seguintes satélites/instrumentos
+    - AMSUA/METOP-B (micro-ondas, infere $t$)
+    - SATWND (infere $u$ e $v$)
+    - GPSRO (refração do sinal GPS, ângulo de curvatura, infere $t$, $p$ e $q$)
+
+</div>
+<div>
+
+<div align="center">
+  <img src="./figs/amsuaa.png" width="300"/>
+</div>
+
+<div align="center">
+  <img src="./figs/amsuad.png" width="300"/>
+</div>
+<figcaption>Fonte: https://www.star.nesdis.noaa.gov/icvs/status_MetOPB_AMSUA.php</figcaption>
+</div>
+</div>
+    
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 2. Determinação da Condição Inicial
+
+<br />
+
+## **2.3 Gridpoint Statistical Interpolation (3DVar/FGAT)**
+
+### ⚙️ Ciclo de Assimilação de Dados
+ 
+<br /> 
+ 
+<div align="center">
+  <img src="./figs/cicload.png" width="850"/>
+</div> 
+ 
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 2. Determinação da Condição Inicial
+
+<br />
+
+## **2.4 Exemplos reais** 
+ 
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 3. R2O - Research to Operations
+
+<br />
+
+## **3.1 O que é e por que é necessário R2O?**
+
+- Etapa crucial de manutenção e desenvolvimento da suíte de assimilação de dados operacional
+  * É quando a pesquisa realizada é passada junto com os novos desenvolvimentos para a situação operacional
+  * Consideram-se também os artefatos computacionais produzidos como apoio à pesquisa, os quais podem ser utilizados como ferramentas de diagnóstico operacionais
+- Desafios
+  * Limitações técnicas frequentemente associadas à capacidade computacional (processamento e armazenamento)
+  * Validação adequada, superar a versão anterior e comparar com os demais produtos
+ 
+---
+
+![bg right:45%](./figs/gadgithub.png)
+
+# 3. R2O - Research to Operations
+
+<br />
+
+## **3.2 Ferramentas de Apoio**
+
+- Grupo de Assimilação de Dados possui uma organização no GitHub
+  - Permite a organização da equipe e dos desenvolvimentos
+    * Roadmaps
+    * Tags e releases para distribuição
+    * Registro de issues
+    * Discussões
+    * Wikis etc
+
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 3. R2O - Research to Operations
+
+<br />
+
+## **3.2 Ferramentas de Apoio**    
+   
+<br />
+   
+### Alguns exemplos de ferramentas de apoio    
+   
+<div class="columns">
+<div>
+
+- **readDiag**
+  * Ferramenta para o diagnóstico da assimilação das radiâncias no GSI (Python)
+
+- **GSIBerror**
+  * Ferramenta para o diagnóstico da matriz de covariâncias dos erros de previsão do GSI (Python)
+
+- **pyBAM**
+  * Ferramenta para leitura dos campos de previsão do BAM (recompõe para o espaço físico os coeficientes espectrais, Python)
+
+</div>
+<div>
+
+- **SCANTEC**
+  * Sistema Comunitário de Avaliação de modelos Numéricos de Tempo E Clima (Fortran)
+  
+- **SCANPLOT**
+  * Sistema de plotagem para o SCANTEC (Python)
+  
+- **SMNAMonitoringApp**
+  * Ferramenta para o monitoramento das simulações operacionais do SMNA (em construção, Python)
+
+</div>
+</div>
+  
+<div>
+  <img src="./figs/github.png" class="floating_ne" alt="GitHub logo">
+</div>
+  
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 3. R2O - Research to Operations
+
+<br />
+
+## **3.2 Ferramentas de Apoio**    
+   
+<br />
+   
+### Alguns exemplos de ferramentas de apoio    
+  
+  
+<div class="columns">
+<div>
+
+- **readDiag**
+  - 🪛 Ferramenta para o diagnóstico da assimilação das radiâncias no GSI (Python)
+  - 🔗 [https://gad-dimnt-cptec.github.io/readDiag](https://gad-dimnt-cptec.github.io/readDiag)
+  - 🐙 [https://github.com/GAD-DIMNT-CPTEC/readDiag](https://github.com/GAD-DIMNT-CPTEC/readDiag)
+  - 📓 Notebooks do Jupyter disponíveis para testar
+  - 🐍 Disponível no PyPi
+  - 📄 Documentação em Português e Inglês
+  
+</div>
+<div>
+
+<div align="center">
+  <img src="./figs/readdiag.png" width="550"/>
+</div>
+
+</div>
+</div>
+
+<div>
+  <img src="./figs/github.png" class="floating_ne" alt="GitHub logo">
+</div> 
+
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 3. R2O - Research to Operations
+
+<br />
+
+## **3.2 Ferramentas de Apoio**    
+   
+<br />
+   
+### Alguns exemplos de ferramentas de apoio    
+  
+  
+<div class="columns">
+<div>
+
+- **GSIBerror**
+  - 🪛 Ferramenta para o diagnóstico da matriz de covariâncias dos erros de previsão do GSI (Python)
+  - 🔗 [https://gad-dimnt-cptec.github.io/GSIBerror](https://gad-dimnt-cptec.github.io/GSIBerror)
+  - 🐙 [https://github.com/GAD-DIMNT-CPTEC/GSIBerror](https://github.com/GAD-DIMNT-CPTEC/GSIBerror)
+  - 📓 Notebooks do Jupyter disponíveis para testar
+  - 🐍 Disponível no PyPi
+  - 📄 Documentação em Português e Inglês
+
+</div>
+<div>
+
+<br />
+<br />
+
+<div align="center">
+  <img src="./figs/bgvin.png" width="600"/>
+</div>
+
+</div>
+</div> 
+
+<div>
+  <img src="./figs/github.png" class="floating_ne" alt="GitHub logo">
+</div> 
+
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 3. R2O - Research to Operations
+
+<br />
+
+## **3.2 Ferramentas de Apoio**    
+   
+<br />
+   
+### Alguns exemplos de ferramentas de apoio    
+  
+  
+<div class="columns">
+<div>
+
+- **pyBAM**
+  - 🪛 Ferramenta para leitura dos campos de previsão do BAM (Python)
+  - 🔗 [https://gad-dimnt-cptec.github.io/pyBAM](https://gad-dimnt-cptec.github.io/pyBAM)
+  - 🐙 [https://github.com/GAD-DIMNT-CPTEC/pyBAM](https://github.com/GAD-DIMNT-CPTEC/pyBAM)
+  - 📄 Documentação apenas em Português
+
+</div>
+<div>
+
+<div align="center">
+  <img src="./figs/pybam.png" width="600"/>
+</div>
+
+</div>
+</div>
+ 
+<div>
+  <img src="./figs/github.png" class="floating_ne" alt="GitHub logo">
+</div>
+ 
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 3. R2O - Research to Operations
+
+<br />
+
+## **3.2 Ferramentas de Apoio**    
+   
+<br />
+   
+### Alguns exemplos de ferramentas de apoio    
+  
+  
+<div class="columns">
+<div>
+
+- **SCANTEC**
+  - 🪛 Sistema Comunitário de Avaliação de modelos Numéricos de Tempo E Clima (Fortran)
+  - 🔗 [https://gad-dimnt-cptec.github.io/SCANTEC](https://gad-dimnt-cptec.github.io/SCANTEC)
+  - 🐙 [https://github.com/GAD-DIMNT-CPTEC/SCANTEC](https://github.com/GAD-DIMNT-CPTEC/SCANTEC)
+  - 📄 Documentação apenas em Português
+
+</div>
+<div>
+
+<br />
+<br />
+
+<div align="center">
+  <img src="./figs/scantec.png" width="350"/>
+</div>
+
+</div>
+</div> 
+ 
+<div>
+  <img src="./figs/github.png" class="floating_ne" alt="GitHub logo">
+</div>
+ 
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 3. R2O - Research to Operations
+
+<br />
+
+## **3.2 Ferramentas de Apoio**    
+   
+<br />
+   
+### Alguns exemplos de ferramentas de apoio    
+  
+  
+<div class="columns">
+<div>
+
+- **SCANPLOT**
+  - 🪛 Sistema de plotagem para o SCANTEC (Python)
+  - 🔗 [https://gad-dimnt-cptec.github.io/SCANPLOT](https://gad-dimnt-cptec.github.io/SCANPLOT)
+  - 🐙 [https://github.com/GAD-DIMNT-CPTEC/SCANPLOT](https://github.com/GAD-DIMNT-CPTEC/SCANPLOT)
+  - 📓 Notebook do Jupyter disponíveis para testar a CLI
+  - ⚙️ GUI de demonstração disponível em [https://huggingface.co/spaces/cfbastarz/SCANPLOT](https://huggingface.co/spaces/cfbastarz/SCANPLOT)
+  - 📄 Documentação apenas em Português
+
+</div>
+<div>
+
+<div align="center">
+  <img src="./figs/scanplot.png" width="500"/>
+</div>
+
+</div>
+</div>
+ 
+<div>
+  <img src="./figs/github.png" class="floating_ne" alt="GitHub logo">
+</div>
+ 
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 3. R2O - Research to Operations
+
+<br />
+
+## **3.2 Ferramentas de Apoio**    
+   
+<br />
+   
+### Alguns exemplos de ferramentas de apoio    
+  
+<div class="columns">
+<div>
+
+- **SMNAMonitoringApp**
+  - 🪛 Ferramenta para o monitoramento das simulações operacionais do SMNA (em construção, Python)
+  - 🔗 [https://gad-dimnt-cptec.github.io/SMNAMonitoringApp](https://gad-dimnt-cptec.github.io/SMNAMonitoringApp)
+  - 🐙 [https://github.com/GAD-DIMNT-CPTEC/SMNAMonitoringApp](https://github.com/GAD-DIMNT-CPTEC/SMNAMonitoringApp)
+  - ⚙️ Demonstração disponível em [https://huggingface.co/spaces/cfbastarz/SMNAMonitoringApp](https://huggingface.co/spaces/cfbastarz/SMNAMonitoringApp)
+  - 📄 Documentação apenas em Português
+
+</div>
+<div>
+
+<div align="center">
+  <img src="./figs/smnamonitoringapp.png" width="550"/>
+</div>
+
+</div>
+</div>
+ 
+<div>
+  <img src="./figs/github.png" class="floating_ne" alt="GitHub logo">
+</div>
+ 
+---
+
+![bg right:40%](./figs/impacto.png)
+
+# 3. R2O - Research to Operations
+
+<br />
+
+## **3.2 Ferramentas de Apoio**    
+   
+<br />
+   
+### Alguns exemplos de ferramentas de apoio    
+  
+<div class="columns">
+<div>
+
+- **Impacto fracionário das observações (Viana e de Mattos, 2024)** 
+ 
+<div align="center">
+  <img src="./figs/fbi.png" width="500"/>
+</div>
+ 
+ 
+---
+
+![bg right:40%](./figs/ose.png)
+
+# 3. R2O - Research to Operations
+
+<br />
+
+## **3.2 Ferramentas de Apoio**    
+   
+<br />
+   
+### Alguns exemplos de ferramentas de apoio    
+  
+<div class="columns">
+<div>
+
+- **Observing System Experiments (de Azevedo et al., 2016)**
+ 
+<div align="center">
+  <img src="./figs/zgeo500shose.png" width="400"/>
+</div> 
+ 
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 3. R2O - Research to Operations
+
+<br />
+
+## **3.2 Ferramentas de Apoio**    
+   
+### Fluxo de transição
+
+- 🤹‍♂️ Gerenciamento do projeto
+  - 🗺️ Organização do roadmap
+    - 💡 O que se deseja para cada versão?
+    - 🚕 Como chegamos lá?
+
+- 🐙 Controle de versões
+  - 📑 Todas as alterações são registradas no repositório (para o SMNA, este repositório é interno)
+  - 👷 Operação reporta as issues que encontrar
+  - 🧑‍🔬 A equipe de desenvolvimento e pesquisa investiga os problemas e, dependendo da solução, propõe alterações no código
+    - 🧪 Novos artefatos são gerados e utilizados pela operação
+  - 🔖 Importante que a operação faça o registro das ocorrências
+    - 🔬 Histórico e avaliação da estabilidade do sistema
+ 
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 4. Atividades Operacionais
+
+<br />
+
+## **4.1 Custo operacional**    
+   
+<br />
+ 
+- 💲 Custo de armazenamento de 1 ciclo do SMNA (BAM+GSI)
+  - Análise espectral GSI TQ0299L064: ~89MB
+  - Background espectral (3x FGAT): ~2GB
+  - Arquivos de diagnóstico GSI: ~1.5GB
+  - Arquivos de observações (AMSUA, GNSS RO, Convencionais): ~150MB
+  - Outros artefatos que fazem parte do processo (GSI): ~3GB
+  - Previsões pós-processadas para 11 dias: ~13GB
+- Total: ~20GB
+  - 👉 4 ciclos por dia: ~80GB
+  - 👉 1 mês: ~10TB
+  - 👉 1 ano: ~115TB
+ 
+---
+
+![bg right:45%](./figs/wmomeetings.png)
+
+# 4. Atividades Operacionais
+
+<br />
+
+## **4.2 Monitoramento**    
+ 
+- Uma vez que o sistema de assimilação de dados encontra-se em ambiente operacional, faz-se necessário
+  * Acompanhar as simulações diárias do sistema, em termos de desempenho computacional e qualidade das análises e previsões (avaliação objetiva)
+  * Acompanhar junto a outros centros a situação operacional dos sensores a bordo dos diversos satélites
+  * Acompanhar junto a outros centros a disseminação dos dados de observações utilizados (principalmente no caso do CPTEC, que ainda não gera o seus próprios dados de observação)
+  * WMO Events and Meetings 🔗 [link](https://wmo.int/news/events-and-meetings)
+  
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 4. Atividades Operacionais
+
+<br />
+
+## **4.3 Comparações com outros produtos numéricos**    
+   
+<div class="columns">
+<div>
+
+- Avaliação mensal dos modelos do CPTEC
+  - 📊 Equipe de avaliação de modelos emite pareceres técnicos sobre o skill dos modelos globais e regionais de previsão de tempo do INPE, junto com o modelo GFS do NCEP
+  - ☔ São escolhidos os eventos de precipitação acumulada mais significativos (e.g., superior a 20mm em 24 horas), para os quais é avaliada a destreza dos modelos
+  - 💦 Comparação com o MERGE (Rozante et al., 2010: Combining TRMM and Surface Observations of Precipitation: Technique and Validation over South America - 🔗 [link](https://journals.ametsoc.org/view/journals/wefo/25/3/2010waf2222325_1.xml))
+
+</div>
+<div>
+
+- Modelos avaliados
+  - 👉 Modelo BAM (global)
+  - 👉 Modelo BAM/SMNA (global)
+  - 👉 MPAS/MONAN (global)
+  - 👉 WRF/CPTEC (regional)
+  - 👉 Eta (regional)
+  - 👉 BRAMS (regional)
+
+</div>
+</div> 
+  
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 4. Atividades Operacionais
+
+<br />
+
+## **4.3 Comparações com outros produtos numéricos**
+
+- Percentual de acertos (BAM X SMNA X GFS) - Maio de 2025
+  - Número de previsões de ocorrência do evento que se confirmaram ($\frac{hits}{hits + misses}$)
+
+<div align="center">
+  <img src="./figs/percacertos.png" width="1024"/>
+  <figcaption>Fonte: Grupo de Avaliação de Modelos DIPTC (reprodução)</figcaption>
+</div>
+ 
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 4. Atividades Operacionais
+
+<br />
+
+## **4.3 Comparações com outros produtos numéricos**
+
+- Percentual de falso alarme (BAM X SMNA X GFS) - Maio de 2025
+  - Número de previsões de ocorrência do evento que não se confirmaram ($\frac{fa}{fa + cr}$)
+
+<div align="center">
+  <img src="./figs/percfalarme.png" width="1024"/>
+  <figcaption>Fonte: Grupo de Avaliação de Modelos DIPTC (reprodução)</figcaption>
+</div> 
+ 
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 4. Atividades Operacionais
+
+<br />
+
+## **4.3 Comparações com outros produtos numéricos**
+
+- Percentual de perdas (BAM X SMNA X GFS) - Maio de 2025
+  - Número de ocorrência de eventos sem previsão ($\frac{misses}{misses + hits}$)
+
+<div align="center">
+  <img src="./figs/percperdas.png" width="1024"/>
+  <figcaption>Fonte: Grupo de Avaliação de Modelos DIPTC (reprodução)</figcaption>
+</div>  
+ 
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 4. Atividades Operacionais
+
+<br />
+
+## **4.3 Comparações com outros produtos numéricos**
+
+- Threat Score (BAM X SMNA X GFS) - Maio de 2025 ($\frac{hits}{hits + misses + fa}$)
+
+<div align="center">
+  <img src="./figs/threatscore.png" width="1024"/>
+  <figcaption>Fonte: Grupo de Avaliação de Modelos DIPTC (reprodução)</figcaption>
+</div> 
+ 
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 4. Atividades Operacionais
+
+<br />
+
+## **4.3 Comparações com outros produtos numéricos**
+
+- Razão de Viés (BAM X SMNA X GFS) - Maio de 2025 ($\frac{hits + fa}{hits + misses}$)
+
+<div align="center">
+  <img src="./figs/rvies.png" width="1024"/>
+  <figcaption>Fonte: Grupo de Avaliação de Modelos DIPTC (reprodução)</figcaption>
+</div> 
+
+---
+
+![bg](./figs/slides_bkg.png)
+
+# 5. Conclusões
+ 
+<br /> 
+ 
+- **Determinação da Condição Inicial**
+  - 🌉 A Assimilação de Dados é a ponte entre as observações e o modelo numérico
+  - ⚖️ É a técnica que combina ambas as informações para produzir a melhor estimativa do estado ótimo da atmosfera (ou do oceano, superfície continental etc)
+ 
+- **Research to Operations** 
+  - 🛠️ Complexidade do framework de assimilação de dados demanda ferramentas para diagnosticar problemas no ambiente operacional e de pesquisa
+  - 🫱🏼‍🫲🏽 Ciclos de entregas de novos desenvolvimentos e correções no ambiente operacional
+ 
+- **Atividades Operacionais**
+  - 👷🏼 A atividade de assimilação de dados em um centro PNT requer a colaboração e o envolvimento das equipes de **modelagem**, **computação científica**, **satélites**, **banco de dados** para o correto estabelecimento dos processos envolvidos na determinação da análise
+  - 🗣️ O contínuo aprimoramento desse tipo de produto demanda monitoramento constante, principalmente sobre a aplicação dos dados não convencionais e a comunicação com os grupos de satélites internacionais
+  
+ 
+---
+
+![bg](./figs/slides_bkg.png)
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /> 
+<br /> 
+ 
+# Obrigado
+
+<br /> 
+
+:octopus: https://github.com/GAD-DIMNT-CPTEC
+:link: https://cfbastarz.github.io
+:email: carlos.bastarz@inpe.br

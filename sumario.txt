@@ -1,0 +1,27 @@
+---
+
+1. O que é assimilação de dados
+  - Motivação
+2. Sistema de Modelagem Numérica e Assimilação de dados (SMNA) do CPTEC
+  2.1 Brazilian Atmospheric Model (modelo global)
+  2.2 Gridpoint Statistical Interpolation
+    - Método Variacional (3DVar/FGAT)
+    - Função Custo
+    - Operador Observação
+    - Tipos de Observações Assimiladas
+    - Matriz de Covariâncias dos Erros de Previsão
+    - Controle de Qualidade das Observações
+    - Ciclo de Assimilação de Dados
+3. Research to Operations
+  3.1 Desenvolvimento de Ferramentas de Apoio à Pesquisa
+    - Ambiente de Desenvolvimento (Redmine e GitHub)
+    - readDiag
+    - GSIBerror
+    - pyBAM
+    - SCANTEC/SCANPLOT
+    - SMNAMonitoringApp (utiliza todas as demais)
+4. Ambiente Operacional
+  4.1 Necessidade de Acompanhamento do Uso dos Dados de Radiância e Seleção de Canais
+  4.1 Custo Operacionais do SMNA (espaço em disco e tempo de processamento)
+  4.2 Algumas Comparações com Outros Produtos Numéricos
+5. Conclusões
