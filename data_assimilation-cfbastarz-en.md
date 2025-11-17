@@ -210,7 +210,7 @@ section {
 </div>
 <div>
 
-* The analysis is the initial condition of numerical models  
+* 💡 The analysis is the initial condition of numerical models  
 
 <div align="center">
   <img src="./figs/data_assimilation.jpg" width="400"/>
@@ -231,8 +231,9 @@ section {
 ## **1.2 Motivation**
 
 <br />
-<br />
-<br />
+
+<div class="columns">
+<div>
 
 - 👉 Models and observations have uncertainties  
   * 🔴 Models  
@@ -242,6 +243,17 @@ section {
 * ⏺️ Data assimilation needs to account for these factors so that these uncertainties can weight their contributions  
   * 👉 The higher the model/observation error, the lower its precision and, consequently, the lower its weight
 
+</div>
+<div>
+
+<div align="center">
+  <img src="./figs/cartoon.jpeg" width="300"/>
+  <figcaption>Fonte: https://www.cartoonstock.com/cartoon?searchID=CS142725</figcaption>
+</div>
+
+</div>
+</div>   
+  
 ---
 
 ![bg](./figs/slides_bkg.png)
@@ -366,7 +378,6 @@ $$
 <div>
 
 <div align="center">
-  <figcaption>xb = sine function applied to domain x0</figcaption>
   <img src="./figs/xb.png" width="390"/>
 </div>
 
@@ -374,7 +385,6 @@ $$
 <div>
 
 <div align="center">
-  <figcaption>y = Observations (same nature as xb)</figcaption>
   <img src="./figs/y.png" width="390"/>
 </div>
 
