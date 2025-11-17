@@ -142,10 +142,15 @@ CARLOS FREDERICO BASTARZ
 
 ![bg](./figs/slides_bkg.png)
 
+<!-- Scoped style -->
+<style scoped>
+section {
+  font-size: 22px;
+}
+</style>
+
 # Sumário
 
-<br />
-<br />
 <br />
 <br />
 <br />
@@ -153,28 +158,27 @@ CARLOS FREDERICO BASTARZ
 <div class="columns">
 <div>
 
-1. [Assimilação de Dados](#3)
+1. Assimilação de Dados
   1.1 O que é Assimilação de Dados?
   1.2 Motivação
   1.3 Intuição matemática
-2. [Determinação da Condição Inicial](#16)
+2. Determinação da Condição Inicial
   2.1 Evolução do Skill da Assimilação de Dados
   2.2 Sistema de Modelagem Numérica e Assimilação de dados do CPTEC
   2.3 Gridpoint Statistical Interpolation
-  2.4 Exemplos reais
 
 </div>
 <div>
 
-3. [R2O – Research to Operations](#24)
+3. R2O – Research to Operations
   3.1 O que é e por que é necessário R2O?
-  3.2 Ferramentas de apoio
-  3.3 Fluxo de transição
-4. [Atividades Operacionais](#34)
-  4.1 Custo operacional 
+  3.2 Ferramentas de Apoio
+  3.3 Fluxo de Transição
+4. Atividades Operacionais
+  4.1 Custo Operacional 
   4.2 Monitoramento
   4.3 Comparações com outros produtos numéricos
-5. [Conclusões](#38)
+5. Conclusões
 
 </div>
 </div>
@@ -189,6 +193,7 @@ CARLOS FREDERICO BASTARZ
 
 ## **1.1 O que é Assimilação de Dados?**
 
+<br />
 <br />
 
 <div class="columns">
@@ -223,14 +228,16 @@ CARLOS FREDERICO BASTARZ
 ## **1.2 Motivação**
 
 <br />
+<br />
+<br />
 
-- Modelos e observações possuem incertezas
-  * Modelos
-    * Discretização das equações, parametrizações físicas etc
-  * Observações
-    * Calibração dos instrumentos, local das medidas (e.g., proximidade a rios), erros de anotação etc
-* A assimilação de dados precisa considerar estes fatores de forma que estas incertezas possam ponderar a contribuição das parcelas
-  * Quanto maior o erro do modelo/observação, menor a sua precisão e, consequentemente, menor o seu peso
+- 👉 Modelos e observações possuem incertezas
+  * 🔴 Modelos
+    * 🖥️ Discretização das equações, parametrizações físicas etc
+  * 🔵 Observações
+    * 🪛 Calibração dos instrumentos, local das medidas (e.g., proximidade a rios), erros de anotação etc
+* ⏺️ A assimilação de dados precisa considerar estes fatores de forma que estas incertezas possam ponderar a contribuição das parcelas
+  * 👉 Quanto maior o erro do modelo/observação, menor a sua precisão e, consequentemente, menor o seu peso
  
 ---
 
@@ -241,6 +248,8 @@ CARLOS FREDERICO BASTARZ
 <br />
 
 ## **1.3 Intuição matemática**
+ 
+<br /> 
  
 <div class="columns">
 <div>
@@ -296,7 +305,8 @@ $$
  
 - Onde
   - $\sigma_{b}^{2}$ e $\sigma_{o}^{2}$ são as variâncias do background e das observações
-  
+ 
+<br /> 
   
 - 👉 Portanto, podemos entender $\alpha$ como um parâmetro que representa a razão entre a variância do erro do modelo e a variância total do erro do sistema (modelo e observação)
   
@@ -345,6 +355,8 @@ $$
 
 ## **1.3 Intuição matemática**
 
+<br />
+
 - Definimos um domínio inteiro onde aplicamos o modelo para extrair informações de uma "previsão" e "observações"
 
 <div class="columns">
@@ -375,6 +387,8 @@ $$
 <br />
 
 ## **1.3 Intuição matemática**
+
+<br />
 
 - $x_b$ e $y_o$ possuem distribuição normal, ambos são representados por valores aleatórios distribuídos sobre uma curva normal com $\mu_{x_b} = 0.0019$ e $\sigma_{x_b} = 0.8909$ e $\mu_{y_o}=-0.011$ e $\sigma_{y_o}=0.8563$
 
@@ -476,6 +490,8 @@ $$
 </div>
 <div>
 
+<br />
+
 - ~68% dos valores encontram-se a uma distância da média inferior a $1\sigma$
 - ~95% dos valores encontram-se a uma distância da média inferior a $2\sigma$
 - ~99,7% dos valores encontram-se a uma distância da média inferior a $3\sigma$
@@ -558,8 +574,10 @@ $$
 </div>
 <div>
 
+<br />
+
 <div align="center">
-  <img src="./figs/xa_xb_y.png" width="550"/>
+  <img src="./figs/xa_xb_y.png" width="500"/>
 </div> 
 
 </div>
@@ -574,6 +592,8 @@ $$
 <br />
 
 ## **1.3 Intuição matemática**
+
+<br />
 
 - Em problemas reais, multivariados e multidimensionais, o peso $\alpha$ é representado por matrizes de covariâncias de erros que requerem modelagem e aproximações para a sua representação 👉 temos pouco controle ou influência sobre estes erros
 
@@ -596,27 +616,28 @@ $$
 
 # 2. Determinação da Condição Inicial
 
+<br />
+
 ## **2.1 Evolução do Skill da Assimilação de Dados**
+
+<br />
 
 <div class="columns">
 <div>
 
-- Evolução do skill da previsão da altura geopotencial em 500 hPa:
+- 📈 Evolução do skill da previsão da altura geopotencial em 500 hPa
   * No início dos anos 1980, a previsão de 7 dias para o Hemisfério Norte, o skill da previsão não chegava a 50%, sendo inferior a 40% no Hemisfério Sul
   * Com o tempo, a diferença do skill entre os hemisférios diminuiu drasticamente, sendo muito próximos a partir dos anos 2000
   * Apenas a partir da metade dos anos 1990, a previsão de 10 dias começa a atingir algum skill (~30%)...
   * Atualmente, a previsão de 10 dias já alcança skill de 50% para ambos os hemisférios
-  * Embora a melhoria tenha sido importante, parece que o skill das previsões mais curtas está alcançando o seu limite - **por que?**
 
 </div>
 <div>
 
-<br />
-<br />
-<br />
+  * Embora a melhoria tenha sido importante, parece que o skill das previsões mais curtas está alcançando o seu limite - **por que?**
 
 <div align="center">
-  <img src="./figs/daskill2K.jpg" width="600"/>
+  <img src="./figs/daskill2K.jpg" width="550"/>
 </div>
 
 </div>
@@ -641,7 +662,7 @@ $$
     * 👉 TQ0299 = truncamento espectral triangular de ordem 299, usando grade Gaussiana quadrática
     * 👉 L064 = 64 níveis verticais em coordenadas híbridas sigma-pressão
 
-- No CPTEC, a combinação entre modelo BAM e GSI tem sido aplicado desde 2012
+* No CPTEC, a combinação entre modelo BAM e GSI tem sido aplicado desde 2012
   * Com atualizações na versão do modelo atmosférico (modelo de superfície, parametrização convectiva, coordenada vertical)
   * Com atualizações na versão do GSI (incluindo novos tipo de dados de observação, matriz de covariâncias entre outros)
   
@@ -654,6 +675,8 @@ $$
 <br />
 
 ## **2.3 Gridpoint Statistical Interpolation**
+
+<br />
 
 - O GSI é um framework de assimilação de dados desenvolvido pelo NCEP
   * Fornece a implementação de software para todas as componentes relacionadas à assimilação de dados
@@ -675,6 +698,8 @@ $$
 <br />
 
 ## **2.3 Gridpoint Statistical Interpolation**
+
+<br />
 
 ### ⚙️ 3DVar
  
@@ -708,7 +733,9 @@ $$
 
 <br />
 
-## **2.3 Gridpoint Statistical Interpolation (3DVar/FGAT)**
+## **2.3 Gridpoint Statistical Interpolation**
+
+<br />
 
 ### ⚙️ FGAT
  
@@ -744,7 +771,7 @@ $$
 
 <br />
 
-## **2.3 Gridpoint Statistical Interpolation (3DVar/FGAT)**
+## **2.3 Gridpoint Statistical Interpolation**
 
 <br />
 
@@ -761,7 +788,11 @@ $$
 
 # 2. Determinação da Condição Inicial
 
-## **2.3 Gridpoint Statistical Interpolation (3DVar/FGAT)**
+<br />
+
+## **2.3 Gridpoint Statistical Interpolation**
+
+<br />
 
 ### ⚙️ Matriz $\mathbf{B}$
 
@@ -786,7 +817,11 @@ $$
 
 # 2. Determinação da Condição Inicial
 
-## **2.3 Gridpoint Statistical Interpolation (3DVar/FGAT)**
+<br />
+
+## **2.3 Gridpoint Statistical Interpolation**
+
+<br />
 
 ### ⚙️ Matriz $\mathbf{B}$
 
@@ -805,8 +840,6 @@ $$
 </div>
 <div>
 
-<br />
-
 <div align="center">
   <img src="./figs/matrizb.png" width="350"/>
 </div>
@@ -820,7 +853,11 @@ $$
 
 # 2. Determinação da Condição Inicial
 
-## **2.3 Gridpoint Statistical Interpolation (3DVar/FGAT)**
+<br />
+
+## **2.3 Gridpoint Statistical Interpolation**
+
+<br />
 
 ### ⚙️ Controle de Qualidade das Observações
 
@@ -853,7 +890,7 @@ $$
 
 <br />
 
-## **2.3 Gridpoint Statistical Interpolation (3DVar/FGAT)**
+## **2.3 Gridpoint Statistical Interpolation**
 
 <br />
 
@@ -891,7 +928,9 @@ $$
 
 <br />
 
-## **2.3 Gridpoint Statistical Interpolation (3DVar/FGAT)**
+## **2.3 Gridpoint Statistical Interpolation**
+
+<br />
 
 ### ⚙️ Ciclo de Assimilação de Dados
  
@@ -905,29 +944,33 @@ $$
 
 ![bg](./figs/slides_bkg.png)
 
-# 2. Determinação da Condição Inicial
-
-<br />
-
-## **2.4 Exemplos reais** 
- 
----
-
-![bg](./figs/slides_bkg.png)
-
 # 3. R2O - Research to Operations
 
 <br />
 
 ## **3.1 O que é e por que é necessário R2O?**
 
-- Etapa crucial de manutenção e desenvolvimento da suíte de assimilação de dados operacional
+<div class="columns">
+<div>
+
+- 👉 Etapa crucial de manutenção e desenvolvimento da suíte de assimilação de dados operacional
   * É quando a pesquisa realizada é passada junto com os novos desenvolvimentos para a situação operacional
   * Consideram-se também os artefatos computacionais produzidos como apoio à pesquisa, os quais podem ser utilizados como ferramentas de diagnóstico operacionais
-- Desafios
+* 🃏 Desafios
   * Limitações técnicas frequentemente associadas à capacidade computacional (processamento e armazenamento)
   * Validação adequada, superar a versão anterior e comparar com os demais produtos
- 
+  
+</div>
+<div>
+
+<div align="center">
+  <img src="./figs/r2o.png" width="450"/>
+  <figcaption>Fonte: https://www.ecmwf.int/sites/default/files/elibrary/2017/17549-ecmwf-research-operations-r20-process.pdf</figcaption>
+</div>
+
+</div>
+</div>  
+  
 ---
 
 ![bg right:45%](./figs/gadgithub.png)
@@ -938,13 +981,17 @@ $$
 
 ## **3.2 Ferramentas de Apoio**
 
+<br />
+<br />
+
 - Grupo de Assimilação de Dados possui uma organização no GitHub
   - Permite a organização da equipe e dos desenvolvimentos
-    * Roadmaps
-    * Tags e releases para distribuição
-    * Registro de issues
-    * Discussões
-    * Wikis etc
+    * 🗺️ Roadmaps
+    * 🏷️ Tags e releases para distribuição
+    * 📋 Registro de issues
+    * 🗣️ Discussões
+    * 📄 Wikis etc
+    * 🔗 [https://github.com/GAD-DIMNT-CPTEC](https://github.com/GAD-DIMNT-CPTEC)
 
 ---
 
@@ -954,9 +1001,7 @@ $$
 
 <br />
 
-## **3.2 Ferramentas de Apoio**    
-   
-<br />
+## **3.2 Ferramentas de Apoio**
    
 ### Alguns exemplos de ferramentas de apoio    
    
@@ -972,11 +1017,11 @@ $$
 - **pyBAM**
   * Ferramenta para leitura dos campos de previsão do BAM (recompõe para o espaço físico os coeficientes espectrais, Python)
 
+- **SCANTEC**
+  * Sistema Comunitário de Avaliação de modelos Numéricos de Tempo E Clima (Fortran)  
+  
 </div>
 <div>
-
-- **SCANTEC**
-  * Sistema Comunitário de Avaliação de modelos Numéricos de Tempo E Clima (Fortran)
   
 - **SCANPLOT**
   * Sistema de plotagem para o SCANTEC (Python)
@@ -984,6 +1029,9 @@ $$
 - **SMNAMonitoringApp**
   * Ferramenta para o monitoramento das simulações operacionais do SMNA (em construção, Python)
 
+- **Impacto das Observações e Observing System Experiments**
+  * Ferramentas de diagnóstico para estudar o impacto e a contribuição dos diferentes tipos de observações na análise 
+  
 </div>
 </div>
   
@@ -1286,23 +1334,25 @@ $$
 
 <br />
 
-## **3.2 Ferramentas de Apoio**    
-   
-### Fluxo de transição
+## **3.3 Fluxo de Transição**    
 
 - 🤹‍♂️ Gerenciamento do projeto
   - 🗺️ Organização do roadmap
     - 💡 O que se deseja para cada versão?
     - 🚕 Como chegamos lá?
 
-- 🐙 Controle de versões
+- 🐙 Desenvolvimento e Controle de versões
   - 📑 Todas as alterações são registradas no repositório (para o SMNA, este repositório é interno)
   - 👷 Operação reporta as issues que encontrar
-  - 🧑‍🔬 A equipe de desenvolvimento e pesquisa investiga os problemas e, dependendo da solução, propõe alterações no código
+  - 🧑‍🔬 A equipe de desenvolvimento e pesquisa investiga os problemas e propõe alterações no código
     - 🧪 Novos artefatos são gerados e utilizados pela operação
   - 🔖 Importante que a operação faça o registro das ocorrências
     - 🔬 Histórico e avaliação da estabilidade do sistema
- 
+    
+- 🗣️ Comunicação da Ciência
+  - 📄 Por meio de relatórios e notas técnicas
+  - 📜 Artigos científicos
+    
 ---
 
 ![bg](./figs/slides_bkg.png)
@@ -1311,7 +1361,7 @@ $$
 
 <br />
 
-## **4.1 Custo operacional**    
+## **4.1 Custo Operacional**    
    
 <br />
  
@@ -1336,12 +1386,14 @@ $$
 <br />
 
 ## **4.2 Monitoramento**    
+
+<br />
  
-- Uma vez que o sistema de assimilação de dados encontra-se em ambiente operacional, faz-se necessário
-  * Acompanhar as simulações diárias do sistema, em termos de desempenho computacional e qualidade das análises e previsões (avaliação objetiva)
-  * Acompanhar junto a outros centros a situação operacional dos sensores a bordo dos diversos satélites
-  * Acompanhar junto a outros centros a disseminação dos dados de observações utilizados (principalmente no caso do CPTEC, que ainda não gera o seus próprios dados de observação)
-  * WMO Events and Meetings 🔗 [link](https://wmo.int/news/events-and-meetings)
+- ⚙️ Uma vez que o sistema de assimilação de dados encontra-se em ambiente operacional, faz-se necessário
+  * 🔬 Acompanhar as simulações diárias do sistema, em termos de desempenho computacional e qualidade das análises e previsões (avaliação objetiva)
+  * 🔬 Acompanhar junto a outros centros a situação operacional dos sensores a bordo dos diversos satélites
+  * 🔬 Acompanhar junto a outros centros a disseminação dos dados de observações utilizados (principalmente no caso do CPTEC, que ainda não gera o seus próprios dados de observação)
+  * 🫱🏼‍🫲🏽 WMO Events and Meetings 🔗 [link](https://wmo.int/news/events-and-meetings)
   
 ---
 
@@ -1352,7 +1404,9 @@ $$
 <br />
 
 ## **4.3 Comparações com outros produtos numéricos**    
-   
+  
+<br />
+  
 <div class="columns">
 <div>
 
@@ -1363,6 +1417,9 @@ $$
 
 </div>
 <div>
+
+<br />
+<br />
 
 - Modelos avaliados
   - 👉 Modelo BAM (global)
@@ -1469,21 +1526,22 @@ $$
 
 # 5. Conclusões
  
-<br /> 
- 
 - **Determinação da Condição Inicial**
   - 🌉 A Assimilação de Dados é a ponte entre as observações e o modelo numérico
   - ⚖️ É a técnica que combina ambas as informações para produzir a melhor estimativa do estado ótimo da atmosfera (ou do oceano, superfície continental etc)
+ 
+<br /> 
  
 - **Research to Operations** 
   - 🛠️ Complexidade do framework de assimilação de dados demanda ferramentas para diagnosticar problemas no ambiente operacional e de pesquisa
   - 🫱🏼‍🫲🏽 Ciclos de entregas de novos desenvolvimentos e correções no ambiente operacional
  
+<br /> 
+ 
 - **Atividades Operacionais**
   - 👷🏼 A atividade de assimilação de dados em um centro PNT requer a colaboração e o envolvimento das equipes de **modelagem**, **computação científica**, **satélites**, **banco de dados** para o correto estabelecimento dos processos envolvidos na determinação da análise
   - 🗣️ O contínuo aprimoramento desse tipo de produto demanda monitoramento constante, principalmente sobre a aplicação dos dados não convencionais e a comunicação com os grupos de satélites internacionais
   
- 
 ---
 
 ![bg](./figs/slides_bkg.png)
