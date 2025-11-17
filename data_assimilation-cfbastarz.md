@@ -203,11 +203,12 @@ section {
   * As observações são espalhadas de forma irregular no espaço
   * As previsões são apresentadas em uma grade regular
   * A combinação de ambos acarreta na atualização/correção da previsão, e isso chamamos de análise
+  * 💡 A análise é a condição inicial dos modelos numéricos 
 
 </div>
 <div>
 
-* A análise é a condição inicial dos modelos numéricos 
+<br />
 
 <div align="center">
   <img src="./figs/data_assimilation.jpg" width="400"/>
@@ -228,16 +229,28 @@ section {
 ## **1.2 Motivação**
 
 <br />
-<br />
-<br />
 
-- 👉 Modelos e observações possuem incertezas
-  * 🔴 Modelos
+<div class="columns">
+<div>
+
+- Modelos e observações possuem incertezas
+  * 🟦 Modelos
     * 🖥️ Discretização das equações, parametrizações físicas etc
-  * 🔵 Observações
+  * ⚪ Observações
     * 🪛 Calibração dos instrumentos, local das medidas (e.g., proximidade a rios), erros de anotação etc
 * ⏺️ A assimilação de dados precisa considerar estes fatores de forma que estas incertezas possam ponderar a contribuição das parcelas
   * 👉 Quanto maior o erro do modelo/observação, menor a sua precisão e, consequentemente, menor o seu peso
+
+</div>
+<div>
+
+<div align="center">
+  <img src="./figs/cartoon.jpeg" width="300"/>
+  <figcaption>Fonte: https://www.cartoonstock.com/cartoon?searchID=CS142725</figcaption>
+</div>
+
+</div>
+</div> 
  
 ---
 
@@ -363,7 +376,6 @@ $$
 <div>
 
 <div align="center">
-  <figcaption>xb = função sin(x) aplicado ao domínio x0</figcaption>
   <img src="./figs/xb.png" width="390"/>
 </div>
 
@@ -371,7 +383,6 @@ $$
 <div>
 
 <div align="center">
-  <figcaption>y = Observações (possuem a mesma natureza de xb)</figcaption>
   <img src="./figs/y.png" width="390"/>
 </div>
 
